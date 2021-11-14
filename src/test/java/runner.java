@@ -4,7 +4,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features={"src/test/resources"}, monochrome = false,
-        glue={"steps"}, tags = "@Case2")
+        glue={"steps"}, tags = "@Case1")
 
 public class runner {
 }
